@@ -1,5 +1,5 @@
 {
-  "name": "caesar-cipher-cli-tool",
+  "name": "Caesar cipher CLI tool",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
