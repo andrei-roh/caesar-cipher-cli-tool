@@ -40,7 +40,7 @@ fs.stat(`${output}`, err => {
   )
   : null;
 
-(shift.match(/\D+/))
+(shift.split('').some(element => /[A-Za-z]/.test(element)))
   ? (
     process.stderr.write('Incorrect parameter! Only number has to use as shift parameter\n'),
     process.exit(1)
